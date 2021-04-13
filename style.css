@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background-color:black;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+}
+.citation {
+    background-color: white;
+    width:250px;
+    height:100px;
+    padding: 110px;
+    border-radius: 5px;
+}
+
+.citation__btn {
+    border-width: 0;
+    padding: 10px;
+    border-radius: 5px;
+    color:white;
+    background-color: black;
+    position: absolute;
+    left: 52.5%;
+    top: 75%;
+}
